@@ -1,0 +1,1416 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0039)http://Ajitqda.com:8080/shop/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" style="" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        	 	
+        	 	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    			<title>Ajitqda - Près de vous</title>
+    			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    			<meta name="description" content="">
+    			<meta name="author" content="Ajitqda">
+
+				<!-- include all header js and css -->
+                
+
+
+
+ 
+
+
+
+        <link href="./Ajitqda - Importations du monde_files/css" rel="stylesheet"> 
+
+
+		<!-- CORE CSS -->
+		<link href="./Ajitqda - Importations du monde_files/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+		<!-- more fonts, cursor up -->
+        <link href="./Ajitqda - Importations du monde_files/animate.css" rel="stylesheet" type="text/css">
+        <link href="./Ajitqda - Importations du monde_files/slippry.css" rel="stylesheet" type="text/css">
+        <link href="./Ajitqda - Importations du monde_files/jquery-ui.min.css" rel="stylesheet" type="text/css">
+       
+
+		<link href="./Ajitqda - Importations du monde_files/meanmenu.min.css" rel="stylesheet" type="text/css">
+		<link href="./Ajitqda - Importations du monde_files/magnific-popup.css" rel="stylesheet" type="text/css">
+		<link href="./Ajitqda - Importations du monde_files/magnific-popup.css" rel="stylesheet" type="text/css">
+		<link href="./Ajitqda - Importations du monde_files/owl.carousel.css" rel="stylesheet" type="text/css">
+		<link href="./Ajitqda - Importations du monde_files/linearicons-icon-font.min.css" rel="stylesheet" type="text/css">
+		<link href="./Ajitqda - Importations du monde_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="./Ajitqda - Importations du monde_files/starr.css" rel="stylesheet" type="text/css">
+
+		<!-- favico -->
+		<!-- favico -->
+		
+		
+		
+			<link rel="icon" href="http://aws-demo.shopizer.com:8080/resources/templates/december/img/favicon.ico"> 
+		
+		
+		
+		
+		
+		<!--  Theme -->
+
+		<link href="./Ajitqda - Importations du monde_files/style.css" rel="stylesheet" type="text/css">
+		<link href="./Ajitqda - Importations du monde_files/template.css" rel="stylesheet" type="text/css">
+		<link href="./Ajitqda - Importations du monde_files/responsive.css" rel="stylesheet" type="text/css">
+
+		<script type="text/javascript" async="" src="./Importa - Imports from the world_files/ga.js.téléchargement"></script><script src="./Importa - Imports from the world_files/modernizr-2.8.3.min.js.téléchargement"></script>
+		<script src="./Ajitqda - Importations du monde_files/jquery-1.12.0.min.js.téléchargement"></script>
+    
+    	<!-- december and common css file -->
+    	<link href="./Ajitqda - Importations du monde_files/sm.css" rel="stylesheet">
+    	<link href="./Ajitqda - Importations du monde_files/showLoading.css" rel="stylesheet">
+    	
+    	
+    	
+    	<!-- cookie consent -->
+    	<link rel="stylesheet" type="text/css" href="./Ajitqda - Importations du monde_files/cookieconsent.min.css">
+    	
+    	
+    	<script type="text/javascript">
+	    	//show overlay wait
+	    	function showTemplateLoading(element) {
+	    		$.LoadingOverlay("show");
+	    	}
+	    	
+	    	function hideTemplateLoading(element) {
+	    		$.LoadingOverlay("hide", true);
+	    	}
+    
+        </script>
+    
+    	<!-- ////////////// -->
+
+    <!-- mini shopping cart template -->
+    <script type="text/html" id="miniShoppingCartTemplate">
+		{{#shoppingCartItems}}
+			<tr id="{{productId}}" class="cart-product">
+				<td>
+			{{#image}}
+					<img width="40" src="{{contextPath}}{{image}}">
+			{{/image}}
+			{{^image}}
+					&nbsp
+			{{/image}}
+				</td>
+				<td>{{quantity}}</td>
+				<td>{{name}}</td>
+				<td>{{price}}</td>
+				<td><button productid="{{productId}}" class="close removeProductIcon" onclick="removeItemFromMinicart('{{id}}')">x</button></td>
+			</tr>
+		{{/shoppingCartItems}}
+	</script>
+	
+	
+	<!-- Google analytics -->	
+	<script type="text/javascript">
+	//<![CDATA[ 
+		  <!-- google analytics -->
+	  	   var _gaq = _gaq || [];
+	  	   _gaq.push(['_setAccount', 'UA-4436714-9']);
+	  	   _gaq.push(['_trackPageview']);
+
+	  	   (function() {
+	    		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	   		 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  	   })();
+	  	//]]> 
+	</script>
+	
+	
+	
+	
+	
+                
+                
+                
+    <script type="text/html" id="productBoxTemplate">
+			{{#products}}
+                        <div itemscope itemtype="http://schema.org/Enumeration" class="col-md-3 col-sm-6 col-xs-12 product" item-order="{{sortOrder}}" item-name="{{description.name}}" item-price="{{price}}" data-id="{{id}}">
+								<div class="thumbnail product-img" style="border:none !important;">
+                                    {{#image}}
+									<a href="/shop/product/{{description.friendlyUrl}}.html/ref=">
+										<img src="{{image.imageUrl}}" alt="" />
+									</a>
+									{{/image}}
+								</div>
+								<div class="product-content text-center">
+									<a class="listing-product-name" href="/shop/product/{{description.friendlyUrl}}.html/ref="><h3 itemprop="name">{{description.name}}</h3></a>
+									<div class="stars" id="productRating_{{id}}"></div>
+									<h4>
+										{{#discounted}}<del>{{originalPrice}}</del>&nbsp;<span itemprop="price" class="specialPrice">{{finalPrice}}</span>{{/discounted}}
+										{{^discounted}}<span itemprop="price">{{finalPrice}}</span>{{/discounted}}
+									</h4>
+									
+									<div class="store-btn">
+      									<div class="store-btn-addtocart"><a class="addToCart" href="javascript:void(0)" productId="{{id}}">Add to cart</a></div>
+   									</div>
+									
+								</div>
+						</div>
+			{{/products}}
+    </script>
+
+	
+
+	 <style></style></head>
+ 
+ 	<body><div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-block cc-top cc-color-override--545430141 cc-invisible" style="display: none;"><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message">This website uses cookies to ensure you get the best experience on our website. <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="http://aws-demo.shopizer.com:8080/shop/pages/terms-and-policy.html" rel="noopener noreferrer nofollow" target="_blank">Learn more</a></span><div class="cc-compliance"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">Got it!</a></div><!--googleon: all--></div>
+ 	
+ 	     <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+		
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+<script src="./Importa - Imports from the world_files/hogan.js.téléchargement"></script>
+<script src="./Importa - Imports from the world_files/bloodhound.min.js.téléchargement"></script>
+<script src="./Importa - Imports from the world_files/typeahead.bundle.min.js.téléchargement"></script>
+
+
+<!-- Customer account menu logged in customer will display in customerAccount placeholder -->
+<script type="text/html" id="customerLoggedInAccountTemplate">
+          		  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false"> <i class="fa fa-user mr-5"></i><span class="hidden-xs">Welcome&nbsp;<span>{{firstName}}</span><i class="fa fa-angle-down ml-5"></i></span> </a>
+		          <ul class="dropdown-menu w-150" role="menu">
+		            <li><a href="#" onClick="javascript:location.href='/shop/customer/dashboard.html';" href="#">My Account</a></a>
+		            </li>
+		            <li><a href="#" onClick="javascript:location.href='/shop/customer/logout';" href="#">Logout</a>
+		            </li>
+		         </ul>
+			 <script type="text/javascript">
+                (function($) {
+                    $('[data-hover="dropdown"]').dropdownHover()
+                })(jQuery);
+			</script>
+
+
+<!-- Customer account menu not logged in customer will display in customerAccount placeholder -->
+<script type="text/html" id="customerNotLoggedInAccountTemplate">
+          		  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false"> <i class="fa fa-user mr-5"></i><span class="hidden-xs">My Account<i class="fa fa-angle-down ml-5"></i></span> </a>
+		          <ul class="dropdown-menu w-150" role="menu">
+						<li><a href="#" id="registerLink" onClick="javascript:location.href='/shop/customer/registration.html';">Register</a></li>
+						<li><a href="#" id="registerLink" onClick="javascript:location.href='/shop/customer/customLogon.html';">Sign in</a></li>
+		         </ul>
+			 <script type="text/javascript">
+                (function($) {
+                    $('[data-hover="dropdown"]').dropdownHover()
+                })(jQuery);
+			</script>
+
+
+<!-- Mini shopping cart JS template -->
+<script type="text/html" id="miniCartTemplate">
+
+                          {{#code}}
+            			  <li>
+              				<div class="cart-items">
+                				<ol class="items">
+                          {{#shoppingCartItems}}
+   
+                 			 			<li>
+                    					<div class="cart-img">
+										{{#image}}
+										<a href="#" class="product-image">
+											<img class="img-responsive" src="{{image}}">
+										</a>
+										{{/image}}
+										{{^image}}
+											&nbsp
+										{{/image}}
+										</div>
+                    					<div class="product-details">
+                      					<div class="close-icon"> <button productid="{{productId}}" class="close removeProductIcon" onclick="removeItemFromMinicart('{{id}}')"><i class="fa fa-times-circle"></i></a></div>
+                      					<p class="product-name"> <a href="#">{{name}}</a> </p> <strong>{{quantity}}</strong> x <span class="price text-primary">{{price}}</span> </div>
+                    					<!-- end product-details -->
+                  						</li>
+                  						<!-- end item -->
+
+						  				{{/shoppingCartItems}}
+               					 </ol>
+              				 </div>
+            			  </li>
+            			  <li>
+              				<div class="cart-footer"> 
+								<a href="#" class="pull-left">Total&nbsp;{{total}}</a>
+								<a href="#" onclick="viewShoppingCartPage();" class="pull-right"><i class="fa fa-shopping-basket mr-5"></i>Checkout</a> 
+							</div>
+            			  </li>
+                          {{/code}}
+						  {{^code}}
+						  	<li>
+                          		<div class="cart-items">
+						  		<ol class="items">
+
+							<h5 style="text-align: center;color:#666666;margin-top:10px;margin-bottom:10px;">No items in your shopping cart</h5>
+						    
+						  		</ol>
+						  		</div>
+						  	</li>
+							{{/code}}
+
+</script>
+
+<!-- mini cart label button template -->
+<script type="text/html" id="miniCartSummaryTemplate">
+		<!-- empty cart and full summary subTotal & quantity -->
+		{{^code}}
+			0
+		{{/code}}
+		{{#code}}
+           {{quantity}}
+		{{/code}}
+</script>
+
+<!-- dropdown js and hover -->
+<script type="text/javascript">
+   ! function($, n, e) {
+      var o = $();
+      $.fn.dropdownHover = function(e) {
+        return "ontouchstart" in document ? this : (o = o.add(this.parent()), this.each(function() {
+          function t(e) {
+            o.find(":focus").blur(), h.instantlyCloseOthers === !0 && o.removeClass("open"), n.clearTimeout(c), i.addClass("open"), r.trigger(a)
+          }
+          var r = $(this),
+            i = r.parent(),
+            d = {
+              delay: 100,
+              instantlyCloseOthers: !0
+            },
+            s = {
+              delay: $(this).data("delay"),
+              instantlyCloseOthers: $(this).data("close-others")
+            },
+            a = "show.bs.dropdown",
+            u = "hide.bs.dropdown",
+            h = $.extend(!0, {}, d, e, s),
+            c;
+          i.hover(function(n) {
+            return i.hasClass("open") || r.is(n.target) ? void t(n) : !0
+          }, function() {
+            c = n.setTimeout(function() {
+              i.removeClass("open"), r.trigger(u)
+            }, h.delay)
+          }), r.hover(function(n) {
+            return i.hasClass("open") || i.is(n.target) ? void t(n) : !0
+          }), i.find(".dropdown-submenu").each(function() {
+            var e = $(this),
+              o;
+            e.hover(function() {
+              n.clearTimeout(o), e.children(".dropdown-menu").show(), e.siblings().children(".dropdown-menu").hide()
+            }, function() {
+              var t = e.children(".dropdown-menu");
+              o = n.setTimeout(function() {
+                t.hide()
+              }, h.delay)
+            })
+          })
+        }))
+      }, $(document).ready(function() {
+        $('[data-hover="dropdown"]').dropdownHover()
+      })
+    }(jQuery, this);
+</script>
+ 
+ <script type="text/javascript">
+//***** Search code *****
+$(document).ready(function() { 
+
+    //post search form
+   $(".searchButton").click(function(e){
+			var searchQuery = $('#searchField').val();
+			var q = searchQuery;
+			if(q==null || q =='') {
+				return;
+			}
+			$('#hiddenQuery').val(q);
+			var uri = '/shop/search/search.html';
+			e.preventDefault();//action url will be overriden
+	        $('#hiddenSearchForm').attr('action',uri).submit();
+   });
+
+   
+   
+	
+   var searchElements = new Bloodhound({
+		datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+		queryTokenizer: Bloodhound.tokenizers.whitespace,
+		
+	    remote: {
+    		url: '/services/public/search/DEFAULT/en/autocomplete.json?q=%QUERY',
+        	filter: function (parsedResponse) {
+            	// parsedResponse is the array returned from your backend
+            	//console.log(parsedResponse);
+            	return parsedResponse;
+
+        	}
+    	}
+	});
+   
+   searchElements.initialize();
+
+
+	var searchTemplate =  Hogan.compile([
+				     '<p class="suggestion-text"><font color="black">{{value}}</font></p>'
+	             ].join(''));
+	
+	
+    //full view search
+	$('#searchField.typeahead').typeahead({
+	    hint: true,
+	    highlight: true,
+	    minLength: 1
+	}, {
+		name: 'shopizer-search',
+	    displayKey: 'value',
+	    source: searchElements.ttAdapter(),
+	    templates: {
+	    	suggestion: function (data) { return searchTemplate.render(data); }
+	    }
+	});
+    
+    //responsive
+	$('#responsiveSearchField.typeahead').typeahead({
+	    hint: true,
+	    highlight: true,
+	    minLength: 1
+	}, {
+		name: 'modal-shopizer-search',
+	    displayKey: 'value',
+	    source: searchElements.ttAdapter(),
+	    templates: {
+	    	suggestion: function (data) { return searchTemplate.render(data); }
+	    }
+	});
+
+});
+
+</script>
+
+
+  <!--=========-TOP_BAR============-->
+  <nav class="topBar">
+    <div class="container">
+      
+      <ul class="list-inline pull-left hidden-sm hidden-xs">
+        <li><span class="text-primary">Have a question?</span>&nbsp;&nbsp;&nbsp;<abbr title="Email">Email address</abbr>: <span itemprop="email"><a class="store-name" style="color:#000;" href="mailto:carl@shopizer.com"><strong>carl@shopizer.com</strong></a></span>&nbsp;&nbsp;&nbsp;<abbr title="Phone">Phone number</abbr>: <span itemprop="telephone"><a class="store-name" style="color:#000;" href="tel:888-988-8888"><strong>888-988-8888</strong></a></span></li>
+        <li><h4>[TEST MODE]</h4></li>
+      </ul>
+      
+      <ul class="topBarNav pull-right">
+
+		
+        <li class="dropdown">
+            <a href="http://aws-demo.shopizer.com:8080/shop/#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false"> <img src="http://aws-demo.shopizer.com:8080/shop/" class="mr-5" alt=""> <span class="hidden-xs"> English <i class="fa fa-angle-down ml-5"></i></span> </a>
+            <ul class="dropdown-menu w-100" role="menu">
+            
+	            
+			
+	            
+					<a href="http://aws-demo.shopizer.com:8080/shop?locale=fr">French</a>
+				
+			
+          </ul>
+        </li>
+        
+        
+        	<li class="dropdown" id="customerAccount">
+          		  <a href="http://aws-demo.shopizer.com:8080/shop/#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false"> <i class="fa fa-user mr-5"></i><span class="hidden-xs">My Account<i class="fa fa-angle-down ml-5"></i></span> </a>
+		          <ul class="dropdown-menu w-150" role="menu">
+						<li><a href="http://aws-demo.shopizer.com:8080/shop/#" id="registerLink" onclick="javascript:location.href=&#39;/shop/customer/registration.html&#39;;">Register</a></li>
+						<li><a href="http://aws-demo.shopizer.com:8080/shop/#" id="registerLink" onclick="javascript:location.href=&#39;/shop/customer/customLogon.html&#39;;">Sign in</a></li>
+		         </ul>
+			 <script type="text/javascript">
+                (function($) {
+                    $('[data-hover="dropdown"]').dropdownHover()
+                })(jQuery);
+			</script></li>
+        
+        	
+        	<li class="dropdown">
+        		<a href="http://aws-demo.shopizer.com:8080/shop/#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false"> <i class="fa fa-shopping-basket mr-5"></i> <span class="hidden-xs">
+                                Shopping cart<sup class="text-primary">(<span id="miniCartSummary">
+		<!-- empty cart and full summary subTotal & quantity -->
+			0
+</span>)</sup>
+                                <i class="fa fa-angle-down ml-5"></i>
+                            	</span>
+                </a>
+                <ul class="dropdown-menu cart w-250" role="menu" id="miniCartTemplate">
+                	<span id="miniCartDetails">
+
+						  	<li>
+                          		<div class="cart-items">
+						  		<ol class="items">
+
+							<h5 style="text-align: center;color:#666666;margin-top:10px;margin-bottom:10px;">No items in your shopping cart</h5>
+						    
+						  		</ol>
+						  		</div>
+						  	</li>
+
+</span>
+                </ul>
+        	</li>
+        
+      </ul>
+    </div>
+  </nav><!--=========-TOP_BAR============-->
+    
+ <!--=========MIDDLE-TOP_BAR============-->
+    
+    <div class="middleBar">
+    <div class="container">
+  <div class="row display-table">
+    <div class="col-sm-5 vertical-align text-left">
+      <a href="javascript:void(0);"> 
+      			    <!-- logo -->
+      				
+									
+									
+										
+						                		
+						                			<!--  use merchant store logo -->
+						                			</a><a class="grey store-name" href="http://aws-demo.shopizer.com:8080/shop/">
+						                			<img class="logoImage" style="max-width:140px;" src="./Importa - Imports from the world_files/example-logo-small.png">
+						                			</a>
+						                		
+						                		
+						                
+									
+					
+      
+    </div>
+    <!-- end col -->
+    <div class="col-sm-7 vertical-align text-center">
+
+	  
+      <form>
+        <div class="row grid-space-1">
+          <div class="col-sm-9">
+            <span class="twitter-typeahead" style="position: relative; display: inline-block; direction: ltr;"><input type="text" class="form-control input-lg typeahead tt-hint" value="" disabled="" autocomplete="off" spellcheck="false" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"><input type="text" name="q" id="searchField" class="form-control input-lg typeahead tt-input" placeholder="Search" value="" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Lato, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="tt-dropdown-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none; right: auto;"><div class="tt-dataset-shopizer-search"></div></span></span>
+         </div>
+          <!-- end col -->
+          <div class="col-sm-3">
+            <input type="submit" class="btn btn-default btn-block btn-lg searchButton" value="Search">
+         </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+      </form>
+      <form id="hiddenSearchForm" method="post" action="http://aws-demo.shopizer.com:8080/shop/search/search.html">
+			<input type="hidden" id="hiddenQuery" name="q">
+	  </form>
+      
+    </div>
+    <!-- end col -->
+
+    <!-- end col -->
+  </div>
+  <!-- end  row -->
+</div>
+</div>
+    
+    
+	<nav class="navbar navbar-main navbar-default" role="navigation" style="opacity: 1;">
+          <div class="container">
+            <!-- Brand and toggle -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>             
+            </div>
+        
+            <!-- Collect the nav links,  -->
+            <div class="collapse navbar-collapse navbar-1" style="margin-top: 5px;">            
+              <ul class="nav navbar-nav">
+                <li><a href="http://aws-demo.shopizer.com:8080/shop/" class="dropdown-toggle">Home</a></li>
+                <!-- Categories -->
+                <!-- mega menu style -->
+                <!--<li class="dropdown megaDropMenu">-->
+                <li class="dropdown">
+                  <a href="http://aws-demo.shopizer.com:8080/shop/#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Products <i class="fa fa-angle-down ml-5"></i></a>
+                  <ul class="dropdown-menu row">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li>
+                        </li><li class=" "><a href="http://aws-demo.shopizer.com:8080/shop/category/living-room.html/ref=c:2">Living Room</a>
+                        
+						</li>
+                    
+                    
+                    
+                    
+                    <li>
+                        </li><li class="dropdown-submenu "><a href="http://aws-demo.shopizer.com:8080/shop/category/tables.html/ref=c:1">Tables</a>
+                        
+                        		<ul class="dropdown-menu">
+								
+									
+									<li><a href="http://aws-demo.shopizer.com:8080/shop/category/console.html/ref=c:1001">Console</a></li>
+											
+								
+								</ul>
+						
+						</li>
+                    
+                    
+                    
+                    
+                    <li>
+                        </li><li class=" "><a href="http://aws-demo.shopizer.com:8080/shop/category/bedroom11.html/ref=c:50">Bedroom</a>
+                        
+						</li>
+                    
+                    
+                    
+                    
+                    <li>
+                        </li><li class=" "><a href="http://aws-demo.shopizer.com:8080/shop/category/decorations.html/ref=c:53">Decorations</a>
+                        
+						</li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+                  </ul>
+                </li>
+                  
+                
+                <li class="dropdown">
+                  <a href="http://aws-demo.shopizer.com:8080/shop/#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">
+                  Page <i class="fa fa-angle-down ml-5"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-left">
+                    
+	                    
+                    
+	                    
+	                    	<li><a href="http://aws-demo.shopizer.com:8080/shop/pages/about-importa.html" class="current">About Importa</a></li>
+	                    
+                    
+	                    
+	                    	<li><a href="http://aws-demo.shopizer.com:8080/shop/pages/frequently-asked-questions.html" class="current">Frequently asked questions</a></li>
+	                    
+                    
+                  </ul>
+                </li>
+                
+                
+                	
+               			<li><a href="http://aws-demo.shopizer.com:8080/shop/pages/terms-and-policy.html" class="current">Terms and Policy</a></li>
+                	
+                
+                	
+                
+                	
+                
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div>
+        </nav>
+
+
+	
+		
+
+
+
+
+
+ 
+ 
+
+
+
+	    
+
+
+        <!-- home banner -->
+        <!-- slider-area-start -->
+		
+		
+			<div class="bannerImage" style="background: url(&#39;https://s3.ca-central-1.amazonaws.com/shopizer-lightsail/files/DEFAULT/slider2.jpg&#39;);
+width:100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+position: relative;">
+	<div class="hero-text" style="margin-left: 30px">
+		<h1 style="
+line-height: 48px; 
+border-width: 0px; 
+margin: 0px; 
+padding-top: 20px;
+padding-bottom: 20px; 
+letter-spacing: 0px; 
+font-weight: 300; 
+font-size: 52px; 
+min-height: 0px; 
+min-width: 0px; 
+max-height: none; 
+max-width: none; 
+opacity: 1; 
+transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); 
+transform-origin: 50% 50% 0px;
+
+
+">
+			Handmade unique furniture</h1>
+		<p>
+			View our latest catalogue</p>
+		<a class="banner-btn" href="http://aws-demo.shopizer.com:8080/shop/#" style="
+    display: block;
+    width: 200px;
+    
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 10px;
+    text-align: center;
+    
+    /* Border styles */
+    border: 3px solid black;
+    color: #fff;
+    background-color: rgb(83, 83, 83);
+
+">Shop now</a></div>
+</div>
+
+		
+		
+		
+
+		
+		<!-- home page - top category CUSTOM CONTENT in home page -->
+		
+			<div class="service-area pt-80">
+				<div class="container">
+	          		<style>
+.my-featured-title {
+   background: #fff;
+   padding: 20px;
+}
+
+.ilt {
+    text-align: center;
+}
+
+.ilt p {
+    font-family: "Lucida Grande",Tahoma;
+    font-size: 12px;
+    font-weight: lighter;
+    font-variant: normal;
+    text-transform: uppercase;
+    color: #666;
+    margin-top: 10px;
+    text-align: center!important;
+    letter-spacing: .3em;
+}
+
+.ilt h2 {
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 36px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 400;
+    color: #222;
+    text-transform: none;
+}
+
+</style>
+
+
+<div class="my-featured-title">
+   <div class="ilt">
+     <h2>Featured items</h2>
+     <p>This is a list of our favorite findings</p>
+   </div>
+</div>
+				</div>
+			</div>
+	    
+
+	    
+
+
+		
+		<!-- featured items -->
+		<!-- Using ajax -->
+		
+		
+		<!-- service-area-end -->
+		<!--new-product-area-start -->
+		
+		
+		
+		<!-- featured items -->
+		<section class="products-grid">
+			<div class="container">
+				<div id="featuredItemsContainer" class="row products-container">
+                        <div itemscope="" itemtype="http://schema.org/Enumeration" class="col-md-3 col-sm-6 col-xs-12 product" item-order="1" item-name="Asian table standard" item-price="999" data-id="1200">
+								<div class="thumbnail product-img" style="border:none !important;">
+									<a href="http://aws-demo.shopizer.com:8080/shop/product/asian-table-standard.html/ref=">
+										<img src="./Importa - Imports from the world_files/exotic-table.jpg" alt="">
+									</a>
+								</div>
+								<div class="product-content text-center">
+									<a class="listing-product-name" href="http://aws-demo.shopizer.com:8080/shop/product/asian-table-standard.html/ref="><h3 itemprop="name">Asian table standard</h3></a>
+									<div class="stars" id="productRating_1200" title="good" style="width: auto;"><img src="./Importa - Imports from the world_files/star-on.png" alt="1" title="good">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="2" title="good">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="3" title="good">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="4" title="good">&nbsp;<img src="./Importa - Imports from the world_files/star-half.png" alt="5" title="good"><input type="hidden" name="score" value="4.5" readonly="readonly"></div>
+									<h4>
+										<del>US$1,249.00</del>&nbsp;<span itemprop="price" class="specialPrice">US$999.00</span>
+										
+									</h4>
+									
+									<div class="store-btn">
+      									<div class="store-btn-addtocart"><a class="addToCart" href="javascript:void(0)" productid="1200">Add to cart</a></div>
+   									</div>
+									
+								</div>
+						</div>
+                        <div itemscope="" itemtype="http://schema.org/Enumeration" class="col-md-3 col-sm-6 col-xs-12 product" item-order="20" item-name="Shelf from Thailand" item-price="169.99" data-id="1250">
+								<div class="thumbnail product-img" style="border:none !important;">
+									<a href="http://aws-demo.shopizer.com:8080/shop/product/shelf-from-thailand.html/ref=">
+										<img src="./Importa - Imports from the world_files/Meubles39.jpg" alt="">
+									</a>
+								</div>
+								<div class="product-content text-center">
+									<a class="listing-product-name" href="http://aws-demo.shopizer.com:8080/shop/product/shelf-from-thailand.html/ref="><h3 itemprop="name">Shelf from Thailand</h3></a>
+									<div class="stars" id="productRating_1250" title="good" style="width: auto;"><img src="./Importa - Imports from the world_files/star-on.png" alt="1" title="good">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="2" title="good">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="3" title="good">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="4" title="good">&nbsp;<img src="./Importa - Imports from the world_files/star-off.png" alt="5" title="good"><input type="hidden" name="score" value="4" readonly="readonly"></div>
+									<h4>
+										
+										<span itemprop="price">US$169.99</span>
+									</h4>
+									
+									<div class="store-btn">
+      									<div class="store-btn-addtocart"><a class="addToCart" href="javascript:void(0)" productid="1250">Add to cart</a></div>
+   									</div>
+									
+								</div>
+						</div>
+                        <div itemscope="" itemtype="http://schema.org/Enumeration" class="col-md-3 col-sm-6 col-xs-12 product" item-order="30" item-name="Natural root console" item-price="1499.99" data-id="200">
+								<div class="thumbnail product-img" style="border:none !important;">
+									<a href="http://aws-demo.shopizer.com:8080/shop/product/natural-root-console.html/ref=">
+										<img src="./Importa - Imports from the world_files/table2.JPG" alt="">
+									</a>
+								</div>
+								<div class="product-content text-center">
+									<a class="listing-product-name" href="http://aws-demo.shopizer.com:8080/shop/product/natural-root-console.html/ref="><h3 itemprop="name">Natural root console</h3></a>
+									<div class="stars" id="productRating_200" title="good" style="width: auto;"><img src="./Importa - Imports from the world_files/star-on.png" alt="1" title="good">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="2" title="good">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="3" title="good">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="4" title="good">&nbsp;<img src="./Importa - Imports from the world_files/star-half.png" alt="5" title="good"><input type="hidden" name="score" value="4.5" readonly="readonly"></div>
+									<h4>
+										
+										<span itemprop="price">US$1,499.99</span>
+									</h4>
+									
+									<div class="store-btn">
+      									<div class="store-btn-addtocart"><a class="addToCart" href="javascript:void(0)" productid="200">Add to cart</a></div>
+   									</div>
+									
+								</div>
+						</div>
+                        <div itemscope="" itemtype="http://schema.org/Enumeration" class="col-md-3 col-sm-6 col-xs-12 product" item-order="100" item-name="Asian rosewood console" item-price="499.99" data-id="151">
+								<div class="thumbnail product-img" style="border:none !important;">
+									<a href="http://aws-demo.shopizer.com:8080/shop/product/asian-rosewood-console.html/ref=">
+										<img src="./Importa - Imports from the world_files/47.jpg" alt="">
+									</a>
+								</div>
+								<div class="product-content text-center">
+									<a class="listing-product-name" href="http://aws-demo.shopizer.com:8080/shop/product/asian-rosewood-console.html/ref="><h3 itemprop="name">Asian rosewood console</h3></a>
+									<div class="stars" id="productRating_151" title="regular" style="width: auto;"><img src="./Importa - Imports from the world_files/star-on.png" alt="1" title="regular">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="2" title="regular">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="3" title="regular">&nbsp;<img src="./Importa - Imports from the world_files/star-half.png" alt="4" title="regular">&nbsp;<img src="./Importa - Imports from the world_files/star-off.png" alt="5" title="regular"><input type="hidden" name="score" value="3.5" readonly="readonly"></div>
+									<h4>
+										
+										<span itemprop="price">US$499.99</span>
+									</h4>
+									
+									<div class="store-btn">
+      									<div class="store-btn-addtocart"><a class="addToCart" href="javascript:void(0)" productid="151">Add to cart</a></div>
+   									</div>
+									
+								</div>
+						</div>
+                        <div itemscope="" itemtype="http://schema.org/Enumeration" class="col-md-3 col-sm-6 col-xs-12 product" item-order="100" item-name="Antique recycled wood storage" item-price="1199.99" data-id="152">
+								<div class="thumbnail product-img" style="border:none !important;">
+									<a href="http://aws-demo.shopizer.com:8080/shop/product/antique-recycled-wood-storage.html/ref=">
+										<img src="./Importa - Imports from the world_files/76.jpg" alt="">
+									</a>
+								</div>
+								<div class="product-content text-center">
+									<a class="listing-product-name" href="http://aws-demo.shopizer.com:8080/shop/product/antique-recycled-wood-storage.html/ref="><h3 itemprop="name">Antique recycled wood storage</h3></a>
+									<div class="stars" id="productRating_152" title="gorgeous" style="width: auto;"><img src="./Importa - Imports from the world_files/star-on.png" alt="1" title="gorgeous">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="2" title="gorgeous">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="3" title="gorgeous">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="4" title="gorgeous">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5" readonly="readonly"></div>
+									<h4>
+										
+										<span itemprop="price">US$1,199.99</span>
+									</h4>
+									
+									<div class="store-btn">
+      									<div class="store-btn-addtocart"><a class="addToCart" href="javascript:void(0)" productid="152">Add to cart</a></div>
+   									</div>
+									
+								</div>
+						</div>
+                        <div itemscope="" itemtype="http://schema.org/Enumeration" class="col-md-3 col-sm-6 col-xs-12 product" item-order="100" item-name="Living room side tables" item-price="229.99" data-id="1300">
+								<div class="thumbnail product-img" style="border:none !important;">
+									<a href="http://aws-demo.shopizer.com:8080/shop/product/living-room-side-tables.html/ref=">
+										<img src="./Importa - Imports from the world_files/side-table.jpg" alt="">
+									</a>
+								</div>
+								<div class="product-content text-center">
+									<a class="listing-product-name" href="http://aws-demo.shopizer.com:8080/shop/product/living-room-side-tables.html/ref="><h3 itemprop="name">Living room side tables</h3></a>
+									<div class="stars" id="productRating_1300" title="good" style="width: auto;"><img src="./Importa - Imports from the world_files/star-on.png" alt="1" title="good">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="2" title="good">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="3" title="good">&nbsp;<img src="./Importa - Imports from the world_files/star-on.png" alt="4" title="good">&nbsp;<img src="./Importa - Imports from the world_files/star-off.png" alt="5" title="good"><input type="hidden" name="score" value="4" readonly="readonly"></div>
+									<h4>
+										
+										<span itemprop="price">US$229.99</span>
+									</h4>
+									
+									<div class="store-btn">
+      									<div class="store-btn-addtocart"><a class="addToCart" href="javascript:void(0)" productid="1300">Add to cart</a></div>
+   									</div>
+									
+								</div>
+						</div>
+                        <div itemscope="" itemtype="http://schema.org/Enumeration" class="col-md-3 col-sm-6 col-xs-12 product" item-order="120" item-name="Avliv Night Table" item-price="99.99" data-id="1252">
+								<div class="thumbnail product-img" style="border:none !important;">
+									<a href="http://aws-demo.shopizer.com:8080/shop/product/avliv-night-table.html/ref=">
+										<img src="./Importa - Imports from the world_files/LIVIA NIGHT STAND VIEW (2).jpg" alt="">
+									</a>
+								</div>
+								<div class="product-content text-center">
+									<a class="listing-product-name" href="http://aws-demo.shopizer.com:8080/shop/product/avliv-night-table.html/ref="><h3 itemprop="name">Avliv Night Table</h3></a>
+									<div class="stars" id="productRating_1252" title="Not rated yet!" style="width: auto;"><img src="./Importa - Imports from the world_files/star-off.png" alt="1" title="Not rated yet!">&nbsp;<img src="./Importa - Imports from the world_files/star-off.png" alt="2" title="Not rated yet!">&nbsp;<img src="./Importa - Imports from the world_files/star-off.png" alt="3" title="Not rated yet!">&nbsp;<img src="./Importa - Imports from the world_files/star-off.png" alt="4" title="Not rated yet!">&nbsp;<img src="./Importa - Imports from the world_files/star-off.png" alt="5" title="Not rated yet!"><input type="hidden" name="score" readonly="readonly"></div>
+									<h4>
+										
+										<span itemprop="price">US$99.99</span>
+									</h4>
+									
+									<div class="store-btn">
+      									<div class="store-btn-addtocart"><a class="addToCart" href="javascript:void(0)" productid="1252">Add to cart</a></div>
+   									</div>
+									
+								</div>
+						</div>
+                        <div itemscope="" itemtype="http://schema.org/Enumeration" class="col-md-3 col-sm-6 col-xs-12 product" item-order="1000" item-name="Sofa available in different size and colors" item-price="129.99" data-id="100">
+								<div class="thumbnail product-img" style="border:none !important;">
+									<a href="http://aws-demo.shopizer.com:8080/shop/product/sofa-available-in-different-size-and-colors.html/ref=">
+										<img src="./Importa - Imports from the world_files/27.jpg" alt="">
+									</a>
+								</div>
+								<div class="product-content text-center">
+									<a class="listing-product-name" href="http://aws-demo.shopizer.com:8080/shop/product/sofa-available-in-different-size-and-colors.html/ref="><h3 itemprop="name">Sofa available in different size and colors</h3></a>
+									<div class="stars" id="productRating_100" title="Not rated yet!" style="width: auto;"><img src="./Importa - Imports from the world_files/star-off.png" alt="1" title="Not rated yet!">&nbsp;<img src="./Importa - Imports from the world_files/star-off.png" alt="2" title="Not rated yet!">&nbsp;<img src="./Importa - Imports from the world_files/star-off.png" alt="3" title="Not rated yet!">&nbsp;<img src="./Importa - Imports from the world_files/star-off.png" alt="4" title="Not rated yet!">&nbsp;<img src="./Importa - Imports from the world_files/star-off.png" alt="5" title="Not rated yet!"><input type="hidden" name="score" readonly="readonly"></div>
+									<h4>
+										
+										<span itemprop="price">US$129.99</span>
+									</h4>
+									
+									<div class="store-btn">
+      									<div class="store-btn-addtocart"><a class="addToCart" href="javascript:void(0)" productid="100">Add to cart</a></div>
+   									</div>
+									
+								</div>
+						</div>
+    </div>
+			</div>
+		</section>
+
+		
+		
+		<!-- PUT BACK LATEST BLOGS -->
+		
+		
+
+		
+
+	<!-- contact-area-end -->
+		
+	<!-- load products -->	
+	<script>
+	       $(document).ready(function() {
+	    	   
+	    	   $('#featuredItemsContainer').LoadingOverlay("show");
+	    	   
+				var tpl = $('#productBoxTemplate').text();
+			    tpl = tpl.replace("COLUMN-SIZE", "3");
+			    $('#productBoxTemplate').text(tpl);
+
+				//get products
+				loadFeaturedItems();
+
+          })
+		  
+		  
+		  
+		  function loadFeaturedItems() {
+		  	$.ajax({
+				type: 'GET',
+				dataType: "json",
+				url: '/services/public/DEFAULT/products/group/FEATURED_ITEM',
+				success: function(productList) {
+
+					//set in slider
+					var productsTemplate = Hogan.compile(document.getElementById("productBoxTemplate").innerHTML);
+					var productsRendred = productsTemplate.render(productList);
+					$('#featuredItemsContainer').append(productsRendred);
+					$('#featuredItemsContainer').LoadingOverlay("hide", true);
+					//call init bindings
+					initBindings();
+					setProductRating(productList.products);
+				},
+				error: function(jqXHR,textStatus,errorThrown) { 
+					$(divProductsContainer).hideLoading();
+					alert('Error ' + jqXHR + "-" + textStatus + "-" + errorThrown);
+				}
+			});
+		  }
+	       
+	        
+	       
+          </script>
+		  <!--- END -->
+		
+		
+	
+		
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+		<!-- footer-area-start -->
+		<div class="footer-area ptb-80">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mar_b-30">
+						<div class="footer-wrapper">
+							 
+							<ul>
+								
+
+
+
+
+
+
+
+
+ <address> 
+ 	<div itemscope="" itemtype="http://schema.org/Organization"> 
+ 	<strong><span itemprop="name">Importa</span></strong><br>  
+ 	<div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"> 
+ 	<span itemprop="streetAddress">275 Notre-Dame St. E. Montreal</span><br>
+ 	<span itemprop="addressLocality"><script>$.ajax({url: "/shop/reference/zoneName",type: "GET",data: "zoneCode=QC",success: function(data){$('#storeZoneName').html(data)}})</script><span id="storeZoneName">Quebec</span>,
+ 	<span id="storeCountryName">Canada</span></span><br>
+ 	<span itemprop="postalCode">H2Y 1C6</span><br>
+ 	<abbr title="Phone">Phone number</abbr>: <span itemprop="telephone">888-988-8888</span>
+ 	</div>
+ 	</div>
+ </address> 
+
+								
+							</ul>
+							
+							
+							
+							   <ul class="footer-social">
+							       
+								   
+								   <li class="facebook"><a target="_blank" href="https://www.facebook.com/Shopizer/"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+								   
+								   
+								   <li class="pinterest"><a target="_blank" href="https://www.facebook.com/Shopizer/"><i class="fa fa-pinterest fa-2x"></i></a></li>
+								   
+								   
+							   	   <li class="instagram"><a target="_blank" href="https://www.facebook.com/Shopizer/"><i class="fa fa-instagram fa-2x"></i></a></li>
+							       
+							   </ul>
+						   
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 hidden-sm col-xs-12 mar_b-30">
+						<div class="footer-wrapper">
+							<div class="footer-wrapper">
+								<ul class="usefull-link">
+									<li class="active">
+										<a href="http://aws-demo.shopizer.com:8080/shop">Home</a>
+									</li>
+								    
+											   <li><a href="http://aws-demo.shopizer.com:8080/shop/pages/terms-and-policy.html" class="current">Terms and Policy</a></li>
+									
+											   <li><a href="http://aws-demo.shopizer.com:8080/shop/pages/about-importa.html" class="current">About Importa</a></li>
+									
+											   <li><a href="http://aws-demo.shopizer.com:8080/shop/pages/frequently-asked-questions.html" class="current">Frequently asked questions</a></li>
+									
+									
+										<li class=""><a href="http://aws-demo.shopizer.com:8080/shop/store/contactus.html">Contact us</a></li>
+									
+									
+										 
+										 
+										
+										 
+											  <li><a href="http://aws-demo.shopizer.com:8080/shop?locale=fr">French</a></li>
+										
+										
+									
+									
+						                     
+						                       
+						                        
+														<li><a href="http://aws-demo.shopizer.com:8080/shop/customer/registration.html">Register</a></li>
+														<li><a href="http://aws-demo.shopizer.com:8080/shop/customer/customLogon.html">Sign in</a></li>
+												
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 hidden-sm col-xs-12 mar_b-30">
+						<div class="footer-wrapper">
+							<div class="footer-title">
+								<a href="http://aws-demo.shopizer.com:8080/shop/#"><h3>Products</h3></a>
+							</div>
+							<div class="footer-wrapper">
+								
+								<ul class="usefull-link">
+									
+									
+									
+									
+									
+									
+								   <li>
+	    								<a href="http://aws-demo.shopizer.com:8080/shop/category/living-room.html/ref=c:2" class="current"> 
+	    									<span class="name">Living Room</span>
+	    								</a>
+	    							</li> 
+	    							
+									
+									
+								   <li>
+	    								<a href="http://aws-demo.shopizer.com:8080/shop/category/tables.html/ref=c:1" class="current"> 
+	    									<span class="name">Tables</span>
+	    								</a>
+	    							</li> 
+	    							
+									
+									
+								   <li>
+	    								<a href="http://aws-demo.shopizer.com:8080/shop/category/bedroom11.html/ref=c:50" class="current"> 
+	    									<span class="name">Bedroom</span>
+	    								</a>
+	    							</li> 
+	    							
+									
+									
+								   <li>
+	    								<a href="http://aws-demo.shopizer.com:8080/shop/category/decorations.html/ref=c:53" class="current"> 
+	    									<span class="name">Decorations</span>
+	    								</a>
+	    							</li> 
+	    							
+									
+									
+									
+									
+									
+								</ul>
+								
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<div class="footer-wrapper">
+						
+						<div class="footer-logo">
+							<p>
+	<img alt="" src="./Importa - Imports from the world_files/project4.jpg" style="width: 478px; height: 316px;"></p>
+
+						</div>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- footer-area-end -->
+		<!-- .copyright-area-start -->
+		<div class="copyright-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 mar_b-30">
+						<div class="copyright text-left">
+							<p>© Importa 2019-2021&nbsp;-&nbsp;Powered by <a href="http://www.shopizer.com/" class="footer-href" target="_blank">Shopizer</a></p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						
+						<div class="copyright-img text-right">
+							<img src="./Importa - Imports from the world_files/MasterCard.png" width="50" alt="">&nbsp;<img src="./Importa - Imports from the world_files/Visa.png" width="50" alt="">&nbsp;<img src="./Importa - Imports from the world_files/AmericanExpress.png" width="50" alt="">&nbsp;<img src="./Importa - Imports from the world_files/PayPal.png" width="50" alt="">
+						</div>
+						
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"></div>
+				</div>
+			</div>
+		</div>
+		<!-- .copyright-area-end -->
+
+	
+
+
+
+
+
+
+    <!-- specific js files -->
+    <!-- do only change the list of js files -->
+    <!-- ////////////// -->
+
+    
+    
+    <script src="./Importa - Imports from the world_files/bootstrap.min.js.téléchargement"></script>
+    <script src="./Importa - Imports from the world_files/owl.carousel.min.js.téléchargement"></script>
+    <script src="./Importa - Imports from the world_files/jquery.meanmenu.js.téléchargement"></script>
+    <script src="./Importa - Imports from the world_files/jquery-ui.min.js.téléchargement"></script>
+    <script src="./Importa - Imports from the world_files/slippry.min.js.téléchargement"></script>
+    <script src="./Importa - Imports from the world_files/wow.min.js.téléchargement"></script>
+    <script src="./Importa - Imports from the world_files/jquery.scrolly.js.téléchargement"></script>
+    <script src="./Importa - Imports from the world_files/loadingoverlay.min.js.téléchargement"></script>
+    
+    
+    <script src="./Importa - Imports from the world_files/jquery.magnific-popup.min.js.téléchargement"></script>
+    <script src="./Importa - Imports from the world_files/plugins.js.téléchargement"></script>
+    <script src="./Importa - Imports from the world_files/starr.js.téléchargement"></script>
+
+    
+    
+    
+    <script src="./Importa - Imports from the world_files/main.js.téléchargement"></script><a id="scrollUp" href="http://aws-demo.shopizer.com:8080/shop/#top" style="display: none; position: fixed; z-index: 2147483647;"><i class="fa fa-angle-up"></i></a>
+  
+    
+    
+    <!-- required common scripts for shopizer -->
+    <script src="./Importa - Imports from the world_files/jquery.raty.min.js.téléchargement"></script>
+	<script src="./Importa - Imports from the world_files/shop-functions.js.téléchargement"></script>
+	<script src="./Importa - Imports from the world_files/shop-customer.js.téléchargement"></script>
+    
+
+
+
+ 
+
+
+
+<script>
+
+function getContextPath() {
+   return "";
+}
+
+function getMerchantStore() {
+   return "1";
+}
+
+function getMerchantStoreCode() {
+   return "DEFAULT";
+}
+
+function getLanguageCode() {
+   return "en";
+}
+
+function supportsCustomerLogin() {
+	
+	
+		return true;
+	
+	
+	
+}
+
+function getItemLabel(quantity) {
+	var labelItem = 'item';
+	if (quantity > 1) {
+		labelItem = 'items';
+	}
+	return labelItem;
+}
+
+//assign rating on a list of products
+function setProductRating(productList) {
+	jQuery.each( productList, function( i, val ) {
+		var pId = '#productRating_' + val.id; 
+	    $(pId).raty({ 
+			readOnly: true,
+			half: true,
+			path : '/resources/img/stars/',
+			score: val.rating
+		});
+	    $(pId).css('width','auto');
+	 });
+}
+
+function getLoginErrorLabel() {
+	return 'Login Failed. Username or Password is incorrect.';
+}
+
+function getEmptyCartLabel() {
+	return 'Your Shopping cart is empty';
+}
+
+
+function getInvalidEmailMessage() {
+	return 'Please provide a valid email address.';
+}
+
+function getInvalidUserNameMessage() {
+	return 'User name must be at least 6 characters long';
+}
+
+
+function getInvalidPasswordMessage() {
+	return 'Password must be at least 6 characters';
+}
+
+function getInvalidCheckPasswordMessage() {
+	return 'Both password must match';
+}
+
+function cartInfoLabel(cart){
+	 var labelItem = getItemLabel(cart.quantity);
+	 <!-- A configuration is required to display quantity and price -->
+	 
+	 
+	 
+	 $("#cartinfo").html('<span id="cartqty">(' + cart.quantity + ' ' + labelItem + ')</span>');
+	 
+	 
+}
+
+function cartSubTotal(cart) {
+	return '<div class="pull-right"><font class="total-box-label">Sub-total : <font class="total-box-price"><strong><span id="checkout-total">' + cart.subTotal + '</span></strong></font></font></div>';
+}
+
+
+function getOrderValidationMessage(messageKey) {
+	
+	//stripe messages
+	var invalid_number 	= 'Credit card number is not valid';
+	var error_creditcard 	= 'Credit card data is invalid';
+	var invalid_expiry_month = 'Credit card expiration date is invalid';
+	var invalid_expiry_year = 'Credit card expiration date is invalid';
+	var invalid_cvc 	= 'Credit card verification digits are invalid';
+	var incorrect_number = 'Credit card number is not valid';
+	var expired_card 	= 'Payment transaction has been declined';
+	var incorrect_cvc 	= 'Credit card verification digits are invalid';
+	var card_declined 	= 'Payment transaction has been declined';
+	var processing_error = 'Got an error while processing the payment, please use another payment method';
+	var rate_limit = 'Got an error while processing the payment, please use another payment method';
+	
+	var map = new Object(); // or var map = {};
+	map['invalid_number'] = invalid_number;
+	map['error_creditcard'] = error_creditcard;
+	map['invalid_expiry_month'] = invalid_expiry_month;
+	map['invalid_expiry_year'] = invalid_expiry_year;
+	map['invalid_cvc'] = invalid_cvc;
+	map['incorrect_number'] = incorrect_number;
+	map['expired_card'] = expired_card;
+	map['incorrect_cvc'] = incorrect_cvc;
+	map['card_declined'] = card_declined;
+	map['processing_error'] = processing_error;
+	map['rate_limit'] = rate_limit;
+	
+	//log('Got message key ' + messageKey);
+	
+	var message = map[messageKey];
+	
+	if(message==null) {
+		message = messageKey;
+	}
+	
+	return message;
+
+	
+}
+
+
+
+
+</script>
+    <script src="./Importa - Imports from the world_files/json2.js.téléchargement"></script>
+    <script src="./Importa - Imports from the world_files/jquery-cookie.js.téléchargement"></script>
+    <script src="./Importa - Imports from the world_files/shop-minicart.js.téléchargement"></script>
+    <script src="./Importa - Imports from the world_files/shop-account.js.téléchargement"></script>
+    <script src="./Importa - Imports from the world_files/login.js.téléchargement"></script>
+    <script src="./Importa - Imports from the world_files/jquery.showLoading.min.js.téléchargement"></script>
+    
+    
+
+
+	<!-- ////////////// -->
+
+
+     
+
+   
+     
+    <!-- Cookie policy --> 
+    <!-- https://www.osano.com/cookieconsent/download/ -->
+	<script src="./Importa - Imports from the world_files/cookieconsent.min.js.téléchargement" data-cfasync="false"></script>
+			<script>
+			window.cookieconsent.initialise({
+			  "palette": {
+			    "popup": {
+			      "background": "#eaf7f7",
+			      "text": "#5c7291"
+			    },
+			    "button": {
+		            "background": "#555555",
+		            "text": "#ffffff"
+			    }
+			  },
+			  "position": "top",
+			  "content": {
+				    "message": "This website uses cookies to ensure you get the best experience on our website.",
+				    "href": "/shop/pages/terms-and-policy.html"
+			   }
+			});
+	 </script>
+	
+
+	    
+ 	
+ 
+ 
+ 
+</body></html>
